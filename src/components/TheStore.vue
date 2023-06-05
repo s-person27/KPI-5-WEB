@@ -45,7 +45,6 @@
                                 data-action="add" href="">Buy
                         </button>
 
-
                     </div>
                 </div>
 
@@ -53,6 +52,7 @@
             <div class="card-body">
                 <div class="row">
                     <div class=" col col-md-3 px-1">
+
                         <img class="img-thumbnail" src="../images/keyboard-chocolate.jpg">
                     </div>
                     <div class="col-auto col-md-6 px-2 ">
@@ -67,9 +67,9 @@
                                 data-action="add" href="">Buy
                         </button>
 
-
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -80,7 +80,7 @@
 import navbar from './navbar.vue'
 import store from "@/store/store";
 export default {
-    name: "store",
+    name: "TheStore",
     methods: {
       increase(){
          store.state.count++;

@@ -1,5 +1,5 @@
 import {createWebHistory, createRouter } from "vue-router";
-import store from "@/components/store.vue";
+import store from "@/components/TheStore.vue";
 import about from "@/components/about.vue";
 import cart from "@/components/cart.vue";
 import login from "@/components/login.vue";
@@ -58,6 +58,7 @@ const router = createRouter({
     history: createWebHistory(),
     routes,
 });
+
 
 
 export default router;

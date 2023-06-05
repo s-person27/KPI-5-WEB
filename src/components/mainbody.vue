@@ -4,13 +4,9 @@
             <div class="col-auto  col-md-2 px-0 bg-white">
                 <div class="d-flex flex-column  px-2 pt-2 ">
                 </div>
-
             </div>
             <div class="col-auto col-md-8">
-
-
                 <router-view></router-view>
-
             </div>
             <div class="col-auto col-md-2">
             </div>
@@ -27,3 +23,5 @@ export default {
 <style scoped>
 
 </style>
+
+

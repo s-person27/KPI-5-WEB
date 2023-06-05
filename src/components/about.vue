@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col"></div>
             <div class="col-md-8  rounded justify-content-center  ">
-                <div class="card card-body " style="background-color:#efefef">
+                <div class="card card-body " style="background-color:#efefef ">
 
                     <h1 style="text-align: center">About us </h1>
                     <div class="mb-md-2 d-grid gap-3  ">
